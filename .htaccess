@@ -32,3 +32,12 @@ RewriteRule ^update-buku$ content/buku/aksi_edit.php?act_edt_buku=simpanedt
 
 RewriteRule ^hapus-buku$ media.php?module=buku&del=hapus&id [QSA]
 RewriteRule ^hapus-buku$ content/buku/hapus.php?id [QSA]
+
+RewriteRule ^admin$ media.php?module=admin
+RewriteRule ^tambah-admin$ media.php?module=admin&act=tambah
+RewriteRule ^admin-simpan$ content/admin/aksi.php?act=simpan
+RewriteRule ^edit-admin$ media.php?module=admin&edt=edit&id [QSA]
+RewriteRule ^edit-admin$ content/admin/edit.php?id [QSA]
+RewriteRule ^update-admin$ content/admin/aksi_edit.php?act_edt_admin=simpanedt
+RewriteRule ^hapus-admin$ media.php?module=admin&del=hapus&id [QSA]
+RewriteRule ^hapus-admin$ content/admin/hapus.php?id [QSA]
