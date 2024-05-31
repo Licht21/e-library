@@ -13,3 +13,6 @@ RewriteRule ^buku-simpan$ content/buku/aksi.php?act=simpan
 RewriteRule ^edit-buku$ media.php?module=buku&edt=edit&id [QSA]
 RewriteRule ^edit-buku$ content/buku/edit.php?id [QSA]
 RewriteRule ^update-buku$ content/buku/aksi_edit.php?act_edt_buku=simpanedt
+
+RewriteRule ^hapus-buku$ media.php?module=buku&del=hapus&id [QSA]
+RewriteRule ^hapus-buku$ content/buku/hapus.php?id [QSA]
