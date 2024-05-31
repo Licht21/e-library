@@ -9,16 +9,8 @@
             <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
+              <a class="nav-link" href="anggota">Anggota</a>
                     <a class="nav-link" href="buku">Buku</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="dosen">Dosen</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="matkul">Mata Kuliah</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="jadwal">Jadwal</a>
                 </li>
             </ul>
             <form class="d-flex">
