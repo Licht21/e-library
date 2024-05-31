@@ -52,7 +52,7 @@ if (!isset($_GET['act']) || $_GET['act'] == '') {
 
 <?php
                 }
-                else if ($_GET['edit'] == 'edit'){
+                else if ($_GET['edt'] == 'edit'){
                     include "edit.php";
                 }
             }
