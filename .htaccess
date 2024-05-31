@@ -1,0 +1,25 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+RewriteRule ^directory/ - [L,R=404]
+
+#---------------------------------------mahasiswa
+RewriteRule ^anggota$ media.php?module=anggota
+RewriteRule ^tambah-anggota$ media.php?module=anggota&act=tambah
+RewriteRule ^anggota-simpan$ content/anggota/aksi.php?act=simpan
+
+RewriteRule ^edit-anggota$ media.php?module=anggota&edt=edit&id [QSA]
+RewriteRule ^edit-anggota$ content/anggota/edit.php?id [QSA]
+RewriteRule ^update-anggota$ content/anggota/aksi_edit.php?act_edt_agt=simpanedt
+
+RewriteRule ^hapus-anggota$ media.php?module=anggota&del=hapus&id [QSA]
+RewriteRule ^hapus-anggota$ content/anggota/hapus.php?id [QSA]
+
+
+RewriteRule ^keluar$ logout.php
+
+</IfModule>

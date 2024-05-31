@@ -1,0 +1,14 @@
+.sukaku {
+    max-width: 100%;
+    border: 1px solid #000; 
+    margin : 5% 10%;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.btn-primary{
+    text-decoration: none;
+}
