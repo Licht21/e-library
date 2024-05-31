@@ -8,3 +8,5 @@ RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 RewriteRule ^directory/ - [L,R=404]
 
 RewriteRule ^buku$ media.php?module=buku
+RewriteRule ^tambah-buku$ media.php?module=buku&act=tambah
+RewriteRule ^buku-simpan$ content/buku/aksi.php?act=simpan

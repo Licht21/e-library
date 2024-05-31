@@ -7,7 +7,7 @@ if (!isset($_GET['act']) || $_GET['act'] == '') {
 
 <div class="container mt-3">
     <h3>DAFTAR BUKU</h3>
-    <a href="tambah-mahasiswa">
+    <a href="tambah-buku">
         <button type="button" class="btn btn-primary mb-3">Tambah</button>
     </a>
     <table class="table table-striped table-bordered">
